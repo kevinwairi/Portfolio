@@ -1,12 +1,13 @@
 
 body  {
-  background-color: #02847f;
-  color: white;
+  background-color: #d2d2d2;
+  color: #fa6850;
+  font-family: Raleway, sans-serif;
 }
 .header {
   width:  max;
   height: 50px;
-  background-color: #fbfbfb;
+  background-color: #795f5f;
   margin-bottom: 5px;
 }
 .header ul{
@@ -25,7 +26,6 @@ body  {
   font-family: sans-serif;
   padding-right: 50px;
   list-style-type: none;
-
   display: inline-block;
 }
 .header ul li a {
@@ -35,21 +35,38 @@ body  {
   }
 
   .section  {
-    text-align: center;
-    height: 60%;
+    text-align: left;
+    height: 400px;
     background-image: url("../images/web-banner.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     color: white;
-    font-size: 40px;
-
+    font-size: 20px;
   }
+
   .section img {
+    float: left;
     align-items: left;
     height: 200px;
     width: 200px;
     border-radius: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .container  {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .container h2 {
+    text-decoration:underline;
+    padding-bottom: 5px;
+    }
+  .footer {
+    height: 200px;
+  }
+  .Contact  {
+    float: left;
   }
 /* }
 .header ul li a:link {

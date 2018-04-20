@@ -87,44 +87,20 @@ body  {
   .clear  {
     clear: both;
   }
+  .column a img{
+    height: 100px;
+    width: 200px;
+  }
   .footer {
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: #d81818;
+    color: black;
+        /* position: fixed; */
   }
   .footer h5,p  {
     float: left;
     margin-left: 30px;
   }
-/* }
-.header ul li a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.header ul li a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.header ul li a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.header ul li a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-} */
-
-
-/* .column {
-  float: left;
-} */

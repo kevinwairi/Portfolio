@@ -62,6 +62,15 @@ body  {
     text-decoration:underline;
     padding-bottom: 5px;
     }
+  .column {
+    width: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 60px;
+  }
+  .clear  {
+    clear: both;
+  }
   .footer {
     height: 200px;
   }

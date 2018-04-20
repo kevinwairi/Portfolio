@@ -21,18 +21,35 @@ body  {
   float: right;
   text-align: left;
   padding: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-right: 50px;
   list-style-type: none;
 
   display: inline-block;
 }
 .header ul li a {
-  color: #18d24b;
+  color: #fa6850;
   text-decoration: none;
 
   }
-  #my-pic {
+
+  .section  {
+    text-align: center;
+    height: 60%;
+    background-image: url("../images/web-banner.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color: white;
+    font-size: 40px;
+
+  }
+  .section img {
+    align-items: left;
     height: 200px;
     width: 200px;
+    border-radius: 300px;
   }
 /* }
 .header ul li a:link {

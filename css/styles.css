@@ -8,7 +8,7 @@ body  {
   width:  max;
   height: 50px;
   background-color: #795f5f;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 .header ul{
 
@@ -31,6 +31,13 @@ body  {
 .header ul li a {
   color: #fa6850;
   text-decoration: none;
+  /* position: fixed; */ */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+    /* text-align: center; */
 
   }
 
@@ -71,11 +78,26 @@ body  {
   .clear  {
     clear: both;
   }
-  .footer {
-    height: 200px;
-  }
-  .Contact  {
+  .column1 {
+    width: 200px;
     float: left;
+    margin-left: 20px;
+    margin-right: 120px;
+  }
+  .clear  {
+    clear: both;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+  }
+  .footer h5,p  {
+    float: left;
+    margin-left: 30px;
   }
 /* }
 .header ul li a:link {

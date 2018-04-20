@@ -1,15 +1,21 @@
 
 body  {
-  background-color: #00fdff;
+  background-color: #02847f;
+  color: white;
 }
 .header {
   width:  max;
   height: 50px;
-  background-color: #044d71;
+  background-color: #fbfbfb;
   margin-bottom: 5px;
 }
 .header ul{
 
+}
+.header img  {
+  float: left;
+  /* padding: 8px; */
+  height: 50px;
 }
 .header ul li{
   float: right;
@@ -23,6 +29,10 @@ body  {
   color: #18d24b;
   text-decoration: none;
 
+  }
+  #my-pic {
+    height: 200px;
+    width: 200px;
   }
 /* }
 .header ul li a:link {

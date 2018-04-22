@@ -1,7 +1,7 @@
 
 body  {
   background-color: #d2d2d2;
-  color: #fa6850;
+  color: #785f5f;
   font-family: Raleway, sans-serif;
 }
 .header {
@@ -77,6 +77,16 @@ body  {
   }
   .clear  {
     clear: both;
+  }
+  .column0  {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 120px;
+  }
+  .column0 img{
+    width: 300px;
+    height: 200px;
   }
   .column1 {
     width: 200px;

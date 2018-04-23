@@ -36,12 +36,12 @@ body  {
     width: 100%;
     color: white;
   }
-  .header ul li a:active  {
+  .header ul li a:hover  {
     color: red;
   }
   .section  {
     text-align: left;
-    height: 350px;
+    height: 500px;
     width: 100%;
     background-image: url("../images/web-top-banner.jpg");
     background-repeat: no-repeat;
@@ -52,19 +52,22 @@ body  {
   }
   .profile  {
     width: 55%;
-		height:300px;
+		height:400px;
     color: white;
     margin: 0 auto;
 		background-color:#30a79d69 ;
   }
   .profile img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     /* border-left: 3px black; */
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
     float: left;
+  }
+  #about  {
+    text-align: center;
   }
   .container  {
     margin-left: 60px;
@@ -73,6 +76,9 @@ body  {
   .container h2,h3 {
     padding-bottom: 5px;
     color: #03423e;
+    }
+  .reasons  {
+    text-align: center;
     }
   .column {
     width: 400px;
